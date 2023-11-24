@@ -8,16 +8,16 @@ class Mycontroller extends Controller
 
 {
         public function get(){
-           return 'get';
+           return 'get'; 
         }
         public function put(){
-           return 'put';
+           return 'put'; 
         }
         public function post(){
-           return 'post';
+           return 'post'; 
         }
         public function delete(){
-           return 'delete';
+           return 'delete'; 
         }
 }
 
