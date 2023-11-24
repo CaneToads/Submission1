@@ -17,6 +17,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/crud','Mycontroller@get');
+Route::put('/crud','Mycontroller@put');
+Route::post('/crud','Mycontroller@post');
+Route::delete('/crud','Mycontroller@delete');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
